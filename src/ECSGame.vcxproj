@@ -74,8 +74,8 @@
     <OutDir>$(SolutionDir)bin\</OutDir>
     <IntDir>$(SolutionDir)build\</IntDir>
     <IncludePath>$(IncludePath)</IncludePath>
-    <ExternalIncludePath>D:\repos\ECSGame\external\;D:\repos\ECSGame\external\json;$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\repos\ECSGame\external\tileson\include;D:\repos\ECSGame\external\SDL2_image-2.6.0\include;D:\repos\ECSGame\external\SDL2\include</ExternalIncludePath>
-    <LibraryPath>D:\repos\ECSGame\external\SDL2_image-2.6.0\lib\x64;D:\repos\ECSGame\external\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)external\;$(SolutionDir)external\json;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)external\tileson\include;$(SolutionDir)external\SDL2_image-2.6.0\include;$(SolutionDir)external\SDL2\include</ExternalIncludePath>
+    <LibraryPath>$(SolutionDir)external\SDL2_image-2.6.0\lib\x64;$(SolutionDir)external\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\</OutDir>

@@ -38,3 +38,10 @@ typedef struct {
 	Entity entity;
 	string animationState;
 } AnimationData;
+
+enum Direction {
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
+};
