@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="57" height="36" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="Grass" tilewidth="16" tileheight="16" tilecount="80" columns="10">
+  <image source="../images/tilesets/Grass.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="81" name="Hills" tilewidth="16" tileheight="16" tilecount="36" columns="6">
+  <image source="../images/tilesets/Hills.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="117" name="Dirt" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../images/tilesets/Tilled Dirt.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="181" name="Water" tilewidth="16" tileheight="16" tilecount="4" columns="4">
+  <image source="../images/tilesets/Water.png" width="64" height="16"/>
+ </tileset>
+ <tileset firstgid="185" name="Objects" tilewidth="16" tileheight="16" tilecount="45" columns="9">
+  <image source="../images/tilesets/Basic Grass Biom things 1.png" width="144" height="80"/>
+ </tileset>
+ <layer id="1" name="Water" width="57" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEOgCAQRNG5/33QPZ5QaYFWMpsl/yUTys0PTVJLnENmH43/oZHGio1H39kXC5uyGzM6Hd5uu1odZm3PxvGG1rU6fN2f/WXobt+1cbd/dMyBRhqrNAIAAAAAAKCWC4zVaj8=
+  </data>
+ </layer>
+ <layer id="2" name="Grass" width="57" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAQBMAU1r5BLdVS/f/TzAMUDiJE4wxsk2qXIykBvNeQMwYz1alYbM5ZglkrdSx1t7G/ePv6xi61v/EPd2z5P245ezBHpY4AAAAAADzjBIqXDZ8=
+  </data>
+ </layer>
+ <layer id="3" name="Plant" width="57" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJgDAQBdB02tq5/xZqp25g6zBGUBCMlWhE3oMjIWk+XC4hAHxbkzgrD/s2VvdSlqf021rEqhP3Q6zxvTjZTLkDPGx9t3PuEDftPfrD3F1Ze1SF89zt/05qRgEAAAAA4IsWhzgLMg==
+  </data>
+ </layer>
+</map>
